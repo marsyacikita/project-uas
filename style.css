@@ -1,0 +1,186 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    position: sticky;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 80px;
+}
+
+.navbar .menu {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu a:hover {
+    color: green;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 200px;
+    background-color: #e3e3e3;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    color: green;
+}
+
+.hero-content h1 span {
+    color: #333;
+}
+
+.hero-content p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: 400px;
+}
+
+/* Categories Section */
+.categories {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.categories h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.categories p {
+    font-size: 1em;
+    color: #555;
+}
+
+.category-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.category-item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category-item img {
+    width: 240px;
+    height: 200px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.category-item h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.category-item button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.category-item button:hover {
+    background-color: darkgreen;
+}
+
+/* Footer */
+footer {
+    background-color: #0a0f23;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    min-width: 200px;
+}
+
+.footer-section h3, .footer-section h4 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+    color: #bbb;
+}
+
+.subscribe {
+    display: flex;
+    gap: 10px;
+}
+
+.form{
+    padding-left: 260px;
+}
+.subscribe input {
+    padding: 10px;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    outline: none;
+}
+
+.subscribe button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
